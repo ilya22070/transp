@@ -5,10 +5,10 @@
   }
 }
 
-@media (max-width: 1100px) {
-  .main__content_text {
-    font-size: 24px;
-    line-height: 28px;
+@media (max-width: 1300px) {
+  .order__left::after {
+    width: 0;
+    height: 0;
   }
 }
 
@@ -17,9 +17,52 @@
     font-size: 24px;
     line-height: 28px;
   }
+
   .shedule__item {
     font-size: 20px;
     margin-top: 10px;
+  }
+  .contacts__left::after {
+    width: 0;
+    height: 0;
+  }
+  .contacts__inner {
+    flex-direction: column;
+  }
+  .contacts__left {
+    max-width: 500px;
+  }
+  .contacts__right {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .account__inner {
+    display: block;
+    margin-top: 50px;
+  }
+  .account__left {
+    max-width: none;
+  }
+  .account__up::after {
+    width: 0;
+    height: 0;
+  }
+  .account__bottom_content {
+    margin-top: 30px;
+  }
+  .account__right_content {
+    max-width: none;
+    margin-top: 30px;
+  }
+  .account__right_acc {
+    max-width: none;
+    margin-top: 30px;
+    padding: 0 15px;
+  }
+  .account__bottom_about {
+    margin-top: 30px;
   }
 }
 
@@ -30,6 +73,10 @@
   }
   .main__menu_item:hover::after {
     height: 15px;
+  }
+  .account__left::after {
+    width: 0;
+    height: 0;
   }
 }
 
@@ -45,6 +92,23 @@
     width: 38px;
     height: 38px;
     font-size: 20px;
+  }
+  .order__inner {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .order__left {
+    max-width: none;
+  }
+  .order__left form {
+    margin: 0 auto;
+  }
+  .attention {
+    max-width: 400px;
+  }
+  .order__right {
+    margin-left: 0;
   }
 }
 
@@ -64,6 +128,13 @@
   .main__content_text {
     font-size: 16px;
     line-height: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .order {
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 
@@ -92,7 +163,7 @@
   .shedule__container {
     margin-left: 2%;
   }
-  .shedule__breads{
+  .shedule__breads {
     margin-left: 2%;
   }
 }
@@ -114,6 +185,33 @@
     font-size: 30px;
     line-height: 35px;
   }
+  .account__bottom_about {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .account__right_acc {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .account__btn {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .account__bottom_content {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .account__right_content {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .contacts {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 
 @media (max-width: 570px) {
@@ -122,6 +220,15 @@
   }
   .vk {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 510px) {
+  .account__bottom_about,
+  .account__right_acc,
+  .account__btn {
+    font-size: 18px;
+    line-height: 20px;
   }
 }
 
@@ -159,14 +266,34 @@
   .shedule__item {
     font-size: 16px;
   }
-  .shedule__title{
+  .shedule__title {
     padding-left: 35px;
     font-size: 20px;
-
   }
-  .shedule__title::before{
+  .shedule__title::before {
     width: 25px;
     height: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contacts {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+  .account__bottom_about,
+  .account__right_acc,
+  .account__btn {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .account__btn {
+    max-width: 150px;
+    margin-left: 33px;
   }
 }
 
@@ -177,5 +304,8 @@
   .main__content_text {
     font-size: 10px;
     line-height: 12px;
+  }
+  .account__btn {
+    margin-left: 25px;
   }
 }
