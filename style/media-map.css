@@ -1,0 +1,33 @@
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 auto;
+}
+
+@media (max-height: 951px) {
+  .map__frame {
+    height: 600px !important;
+  }
+}
+
+@media (max-height: 860px) {
+  .map__frame {
+    height: 500px !important;
+  }
+}
+@media (max-height: 770px) {
+  .map__frame {
+    height: 450px !important;
+  }
+}
+@media (max-height: 700px) {
+  .map__frame {
+    height: 400px !important;
+  }
+}
+@media (max-height: 660px) {
+  .map__frame {
+    height: 300px !important;
+  }
+}
